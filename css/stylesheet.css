@@ -1,0 +1,140 @@
+.wrap
+{
+	height:600px;
+	background-image: url("../bowl.jpg");
+	text-decoration: none;
+	margin-top: 10px;
+	 background-repeat: no-repeat;
+}
+
+nav li 
+{
+   display: inline;
+   padding-right: 7px;
+   	margin-top: 10px;
+   	margin-right: 0px;
+   	font-family: 'Lato', sans-serif;
+   	font-weight: bold;
+
+
+
+
+   }
+
+
+section li
+{
+display: inline;
+color: black;
+font-size: 35px;
+	
+
+}
+
+   ul a:hover
+   {
+   	color: orange;
+   }
+ a,.container_12
+   {
+text-decoration: none;
+color: white;
+
+   }
+   .aside
+{
+	margin-left: 56%; 
+	margin-top: 25px;
+	font-family: 'Amaranth', sans-serif;
+	font-size: 30px;
+	color:   #aeb6bf;
+
+}
+
+ 
+.aside1
+{
+	margin-left: 56%; 
+	margin-top: 0px;
+	font-family: 'Amaranth', sans-serif;
+
+}
+.aside2
+{
+	margin-left: 80%; 
+	font-size: 15px;
+	color:   #b7950b  ; 
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	padding-right: 20px;
+	word-spacing: 1em;
+
+}
+.eside
+{
+	margin-bottom: 20px;
+	background: none;
+	margin-left: 50%;
+}
+.fside
+{
+
+	margin-top: 215px;
+	font-size: 30px;
+	background-image: url("../bg.jpg");
+	color: black;
+	text-align: center;
+   
+}
+
+
+
+
+.bside
+{
+	margin-top: 10px;
+	color: black;
+    
+}
+.cside1
+{
+
+	margin-top: 30px;
+	background: none;
+	color: red;
+}
+
+
+.cside
+{
+	margin-top: 30px;
+	background: none;
+	color: red;
+}
+.footer
+{
+	background: green;
+	margin-top: 10px;
+}
+.align
+{
+ padding-left: 60px;
+}
+
+
+.object 
+{
+  animation: MoveUpDown 2s linear infinite;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 40px;
+  }
+}
